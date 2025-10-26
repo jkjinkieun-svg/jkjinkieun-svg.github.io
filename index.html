@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior Sales Engineer at Fastly</title>
+
+  <style>
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    #image-container {
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+      height: 100vh;           
+      background-color: #f0f0f0; 
+    }
+    
+    #centered-image {
+      max-width: 65%;
+      max-height: 65%;
+      border: 1px solid #ccc; 
+    }
+  </style>
+</head>
+<body>
+  
+ 
+  <div id="image-container">
+    <img id="centered-image" src="img.png" alt="적당한 이미지">
+  </div>
+  
+  <script>
+     document.getElementById('centered-image').addEventListener('click', function() {
+      alert('이미지가 클릭되었습니다!');
+    });
+  </script>
+</body>
+</html>
